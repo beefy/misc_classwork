@@ -1,0 +1,3 @@
+Name: Fry Lock
+UserID: 4
+Description: Outerspace superpowered french fry from Aqua Teen Hunger Force

@@ -1,0 +1,3 @@
+Name: Ron Burgundy
+UserID: 5
+Description: News Anchor for Channel 4 News, Santiago

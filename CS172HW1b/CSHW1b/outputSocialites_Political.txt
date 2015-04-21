@@ -1,0 +1,3 @@
+Name: Edward Snowden
+UserID: 3
+Description: Surveillance rights activist

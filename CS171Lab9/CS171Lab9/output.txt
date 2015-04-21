@@ -1,0 +1,193 @@
+
+
+
+
+
+                       Simple Text Formatter Test Document
+        This is some text that will appear before the first section header.  It will 
+        a role similar to an abstract or ana role similar to an abstract or an 
+        introductory section.introductory section. 
+
+1. Introduction
+
+
+        This first section header should be numbered 1.  It should have two blank 
+        before it and one between it and thisbefore it and one between it and 
+        paragraph. 
+
+
+        And this is a second paragraph in the introduction. 
+
+2. Commands
+
+
+        Here in the second section, we should again see two blank lines before the 
+        header and one after.  It sholdheader and one after.  It shold be 
+        2.2. 
+
+
+        The actual commands you are processing in this document include: 
+
+
+        - .ce which centers the next line 
+
+
+        - .se which makes the next line a section header 
+
+3. Centering
+
+
+        When centering a line, your strategy should be to determine the length of the 
+        that you are centering.  Then youthat you are centering.  Then you 
+        take the difference between the full line lengthtake the 
+        between the full line lengthbetween the full line length and the length 
+        the line to center.  Divide that by 2the line to center.  Divide that 
+        22 which gives you the number of spaces that need to be printed before the line 
+        you are centering.you are centering. 
+
+
+        If you do the extra credit part where you handle line breaks and paragraphs, 
+        .ce directive should be taken.ce directive should be taken to 
+        the current paragraph.  However, unlikethe current paragraph.  
+        unlikeunlike the blank line that terminates a paragraph, the .ce doesn't 
+        print a blank line after theprint a blank line after the current 
+         So we can place a centered line So we can place a centered line 
+        between two paragraphs with no spacing likebetween two paragraphs 
+        no spacing likeno spacing like this:                           Centered line with no spacing
+        Or we can print a centered line with a blank line before and after by inserting 
+        blank lines in the input file.blank lines in the input file. The result 
+        like this:like this: 
+
+
+                           Centered line with spacing
+
+
+
+        Of course, the user also has the option to have one blank line before or after 
+        not in the other position.not in the other position. 
+
+4. Sections
+
+
+        Sections in this text formatter are numbered automatically. This one is 
+        4.4. 
+
+
+
+
+
+
+                                        2
+
+
+
+
+
+        Each section header is preceeded by two blank lines and succeeded by one 
+        line before the first paragraphline before the first paragraph of the 
+         As with the centering directive, .se As with the centering 
+        .se.se indicates the end of a paragraph if you are doing the extra credit 
+         Unlike the centering case, section Unlike the centering case, 
+        headers always result in the same set of blank lines regardless of whether 
+        input file includes blankinput file includes blank lines in those 
+        
+
+5. Other Features
+
+
+        Of course, the set of capabilities that are described here wouldn't make for 
+        very complete text formatter.  Avery complete text formatter.  A real 
+        would certainly have additional features, suchwould certainly have 
+        features, suchfeatures, such as a mechanism for creating subsections and 
+        etc.  There would also have to be a system for supporting floating blocks of 
+        such as figures and tablessuch as figures and tables that might need to 
+        from one place to anotherfrom one place to another with text flowing in 
+        absence.absence. 
+
+
+        Chapters are another useful capability to have in a text formatter.  
+        this will result in the chapter beginningthis will result in the 
+        beginningbeginning on a new page and a more extensive chapter heading 
+        
+
+
+        Another important function that we would like to have in our formatting 
+        is the ability to have hierarchicalis the ability to have 
+        itemized and enumerated lists.  In effect, we want a mechanism that allows us 
+        create structures likecreate structures like outlines where the 
+        software does thesoftware does the numbering and layout for us.  These are 
+        familiar from the <ol> and <ul> tags in HTML. 
+
+6. Filler
+
+
+        To give you more material for your formatter to chew on, the remainder of this 
+        file is just junkfile is just junk for the purpose making sure you have at 
+        aa couple of page breaks. 
+
+
+        asfasdfasdf asdfasdfasf asdfasdfas asdfasdfadf asdfasdfasdf 
+        
+
+
+        asdfasdfa asdfasdfa asdfafadf asdfadsfadf asdfadsfasdf asdfasdfadsf 
+        asdfadadf asdfadfadf 
+
+
+
+
+
+
+
+
+
+                                        3
+
+
+        asdfasdfasdf asdfadfadf asdfadfasdf asdfasfaf 
+
+
+                                  asdfadsfasdf
+                                     asdfadf
+                                   asdfadfasdf
+
+
+
+        asdfasfdasdf asdfasdfasdf asdfasdfasdf asdfasdfasdf asdfasdf 
+        asdfasfasdf asdfasdfasdf asdfasdfsadf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
