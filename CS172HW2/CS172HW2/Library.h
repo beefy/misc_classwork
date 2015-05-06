@@ -98,5 +98,19 @@ static string promptForString(string prompt) {
 	return in;
 }
 
+/*
+	param out:		ofstream to open the file to
+	param filename:	future name of the file
+	@return:		returns true if file created correctly
+*/
+bool createNewFile(ofstream& out, string filename) {
+
+	//open file
+	out.open(filename);
+
+	//return true if good file open
+	return out.good();
+}
+
 #endif
 
